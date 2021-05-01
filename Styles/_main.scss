@@ -1,0 +1,97 @@
+.main{
+    text-align: center;
+    .explore-beyong{
+        width: 100%;
+        height: 17.5rem;
+        background-color: $back-ground-main;
+        .explore-text{
+            width: 100%;
+            text-align: center;
+            vertical-align: middle;
+            padding-top: 32%;
+            .paragraph-explore1{
+                font-family: "questrial";
+                font-weight: bold;
+                color: white;
+                margin: 10px;
+            }
+            .paragraph-explore2{
+                font-family: "questrial";
+                font-size: 0.5rem;
+                color: white;
+                margin: 10px;
+            }
+            input{
+                color: $back-ground-main;
+                background-color: white;
+                border-style: none;
+                font-family: 'Questrial';
+                font-size: 0.4rem;
+                width: 5rem;
+                height: 1rem;
+            }
+        }
+    }
+
+    .contain-grid-second-nav{
+        text-align: -webkit-center;
+        .nav-down{
+            .view-squeres{
+                width: 100%;
+                height: 1rem;
+                margin-top: 1rem;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            .container-li-down{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                }
+                .nav-element-down{
+                    margin: 3px;
+                    font-family: "questrial";
+                    color: $menu-lettlers;
+                }
+                .nav-element-down:active{
+                    color: white;
+                    border: 1px solid $back-ground-main;
+                    background-color: $back-ground-main;
+                }
+            }
+        }
+
+        .grid{ 
+            display: grid;
+            width: 60%;
+            margin-top: 1rem;     
+            grid-template-columns: 1fr;
+            grid-template-rows: 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+            grid-gap: 10px;
+            .grid-cell{
+                overflow: hidden;
+                background-color: lightgray; 
+                align-self: center;
+                img{
+                    width: 180px;
+                    height: 5rem;
+                    object-fit: cover;
+
+                }
+            }
+        }
+
+        .show-me-more-btn{
+            color: white;
+            background-color: $back-ground-main;
+            border-style: none;
+            font-family: 'Questrial';
+            font-size: 0.4rem;
+            width: 5rem;
+            height: 1rem;
+        }
+    }
+}

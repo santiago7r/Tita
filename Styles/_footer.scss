@@ -1,0 +1,24 @@
+.footer{
+    .copy-right{
+        width: 100%;
+        height: 1rem;
+        text-align: center;
+        margin: 1rem;
+        .paragraph-copy{
+            color: $copy-right-paragraph;
+            .span-copy{
+                color: $back-ground-main;
+            }
+        }
+    }
+    .social-networks{
+        width: 100%;
+        height: 3rem;
+        text-align: center;
+        a{
+            margin: 5px;
+            text-decoration: none;
+            color: $social-networks;
+        }
+    }
+}

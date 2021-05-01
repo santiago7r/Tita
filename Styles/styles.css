@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+}
+
+.header .cotainer-img-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .cotainer-img-nav .logo-img {
+  width: 200px;
+  height: 45px;
+}
+
+.header .cotainer-img-nav .nav .container-li {
+  list-style: none;
+}
+
+.header .cotainer-img-nav .nav .container-li li {
+  margin: 5px;
+}
+
+.header .cotainer-img-nav .nav .container-li a {
+  text-decoration: none;
+  font-family: "questrial";
+  color: #838383;
+}
+
+.header .cotainer-img-nav .nav .container-li .nav-element:active {
+  color: white;
+  border: 1px solid #fc758c;
+  background-color: #fc758c;
+}
+
+.main {
+  text-align: center;
+}
+
+.main .explore-beyong {
+  width: 100%;
+  height: 17.5rem;
+  background-color: #fc758c;
+}
+
+.main .explore-beyong .explore-text {
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 32%;
+}
+
+.main .explore-beyong .explore-text .paragraph-explore1 {
+  font-family: "questrial";
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+}
+
+.main .explore-beyong .explore-text .paragraph-explore2 {
+  font-family: "questrial";
+  font-size: 0.5rem;
+  color: white;
+  margin: 10px;
+}
+
+.main .explore-beyong .explore-text input {
+  color: #fc758c;
+  background-color: white;
+  border-style: none;
+  font-family: 'Questrial';
+  font-size: 0.4rem;
+  width: 5rem;
+  height: 1rem;
+}
+
+.main .contain-grid-second-nav {
+  text-align: -webkit-center;
+}
+
+.main .contain-grid-second-nav .nav-down .view-squeres {
+  width: 100%;
+  height: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main .contain-grid-second-nav .nav-down .container-li-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.main .contain-grid-second-nav .nav-down .container-li-down a {
+  text-decoration: none;
+}
+
+.main .contain-grid-second-nav .nav-down .container-li-down .nav-element-down {
+  margin: 3px;
+  font-family: "questrial";
+  color: #838383;
+}
+
+.main .contain-grid-second-nav .nav-down .container-li-down .nav-element-down:active {
+  color: white;
+  border: 1px solid #fc758c;
+  background-color: #fc758c;
+}
+
+.main .contain-grid-second-nav .grid {
+  display: -ms-grid;
+  display: grid;
+  width: 60%;
+  margin-top: 1rem;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+      grid-template-rows: 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+  grid-gap: 10px;
+}
+
+.main .contain-grid-second-nav .grid .grid-cell {
+  overflow: hidden;
+  background-color: lightgray;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.main .contain-grid-second-nav .grid .grid-cell img {
+  width: 180px;
+  height: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main .contain-grid-second-nav .show-me-more-btn {
+  color: white;
+  background-color: #fc758c;
+  border-style: none;
+  font-family: 'Questrial';
+  font-size: 0.4rem;
+  width: 5rem;
+  height: 1rem;
+}
+
+.footer .copy-right {
+  width: 100%;
+  height: 1rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.footer .copy-right .paragraph-copy {
+  color: #cbd6dd;
+}
+
+.footer .copy-right .paragraph-copy .span-copy {
+  color: #fc758c;
+}
+
+.footer .social-networks {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+}
+
+.footer .social-networks a {
+  margin: 5px;
+  text-decoration: none;
+  color: #c2cfd7;
+}
+
+@media only screen and (min-width: 375px) {
+  body {
+    max-width: 375px;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    max-width: 1024px;
+    margin: auto;
+  }
+  .header {
+    width: 100%;
+  }
+  .header .cotainer-img-nav {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header .cotainer-img-nav .logo-img {
+    width: 200px;
+    height: 45px;
+  }
+  .header .cotainer-img-nav .nav .container-li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+  }
+  .header .cotainer-img-nav .nav .container-li li {
+    margin: 5px;
+  }
+  .header .cotainer-img-nav .nav .container-li a {
+    text-decoration: none;
+    font-family: "questrial";
+    color: #838383;
+  }
+  .header .cotainer-img-nav .nav .container-li .nav-element:active {
+    color: white;
+    border: 1px solid #fc758c;
+    background-color: #fc758c;
+  }
+  .main {
+    text-align: center;
+  }
+  .main .explore-beyong {
+    width: 100%;
+    height: 30rem;
+    background-color: #fc758c;
+  }
+  .main .explore-beyong .explore-text {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 17.5%;
+  }
+  .main .explore-beyong .explore-text .paragraph-explore1 {
+    font-family: "questrial";
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: white;
+    margin: 10px;
+  }
+  .main .explore-beyong .explore-text .paragraph-explore2 {
+    font-family: "questrial";
+    font-size: 0.7rem;
+    color: white;
+    margin: 10px;
+  }
+  .main .explore-beyong .explore-text input {
+    color: #fc758c;
+    background-color: white;
+    border-style: none;
+    font-family: 'Questrial';
+    font-size: 0.4rem;
+    width: 5rem;
+    height: 1rem;
+  }
+  .main .contain-grid-second-nav {
+    text-align: -webkit-center;
+  }
+  .main .contain-grid-second-nav .nav-down .view-squeres {
+    width: 100%;
+    height: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .main .contain-grid-second-nav .nav-down .view-squeres img {
+    width: 0.875rem;
+  }
+  .main .contain-grid-second-nav .nav-down .container-li-down {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style: none;
+  }
+  .main .contain-grid-second-nav .nav-down .container-li-down a {
+    text-decoration: none;
+  }
+  .main .contain-grid-second-nav .nav-down .container-li-down .nav-element-down {
+    margin: 3px;
+    font-family: "questrial";
+    color: #838383;
+    font-size: 0.7rem;
+  }
+  .main .contain-grid-second-nav .nav-down .container-li-down .nav-element-down:active {
+    color: white;
+    border: 1px solid #fc758c;
+    background-color: #fc758c;
+  }
+  .main .contain-grid-second-nav .grid {
+    display: -ms-grid;
+    display: grid;
+    width: 60%;
+    margin-top: 1rem;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 15rem 15rem 15rem;
+        grid-template-rows: 15rem 15rem 15rem;
+    grid-gap: 10px;
+  }
+  .main .contain-grid-second-nav .grid .grid-cell {
+    overflow: hidden;
+    background-color: lightgray;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .main .contain-grid-second-nav .grid .grid-cell img {
+    height: 15rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .main .contain-grid-second-nav input {
+    color: white;
+    background-color: #fc758c;
+    border-style: none;
+    font-family: 'Questrial';
+    font-size: 0.4rem;
+    width: 5rem;
+    height: 1rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
